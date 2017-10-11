@@ -1,0 +1,7 @@
+* [Connecting to the Application](#connect)
+* [Using the Application](#use)
+    * [Course Selection](#selection)
+    * [Course Assignment](#assignment)
+    * [Reports](#reports)
+    * [Course Management](#manage-course)
+    * [Department Management](#manage-dept)
