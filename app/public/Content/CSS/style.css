@@ -1,0 +1,118 @@
+/**
+ * General styling
+ */
+html, body{
+	margin: 0;
+	overflow-x: hidden;
+	background-color: #C7C3BD;
+}
+
+*{
+	font-family: Avantgarde, sans-serif;
+}
+
+pre{
+	overflow: scroll;
+}
+
+.placebar{
+	padding: 3px 0px;
+	background-color: #C7C3BD;
+	background-image: -moz-linear-gradient(top, rgba(199, 195, 189, 1), rgb(199, 195, 189));
+	background-image: -webkit-linear-gradient(top, rgba(199, 195, 189, 1), rgb(199, 195, 189));
+}
+/** 
+ * Side navigation and content styling
+ */
+#content{
+	margin-left: 30px;
+	margin-right: 100px;
+}
+
+.pagewrap{
+	margin: auto;
+	width: 75%;
+}
+
+#sidenav{
+	margin: 0px auto;
+	width: 95%;
+}
+
+#sidenav>ul>li{
+	list-style-type: none;
+	margin-left: -40px;
+	z-index: 1000;
+	position: relative;
+}
+
+#sidenav>ul>li>a{
+	display: block;
+	color: black;
+	height: 40px;
+	font-size: 17px;
+}
+
+#sidenav>ul>li>a.active{
+	display: block;
+	color: #FFFFFF;
+	width: auto;
+	height: 40px;
+	background-color: #F36E21;
+	border-color: #F36E21;
+	border-radius: 3px;
+}
+
+#sidenav>ul>li>a>div{
+	padding: 10px;
+}
+
+.box{
+	background: #F5F5F5;
+	padding: 5px;
+	margin-left: 120px;
+	margin-right: 90px;
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+/**
+ * Page Layout
+ */
+.gencon{
+	min-height: 400px;
+	background-color: #513127;
+	margin-bottom: -3.9em;
+}
+
+.contentwrap{
+	top: -275px;
+	margin-left: 140px;
+	position: relative;
+}
+
+.boxcon{
+	margin: 20px;
+	min-height: 400px;
+}
+
+.data>pre{
+	padding: 10px;
+	border: 2px solid #000000;
+}
+fieldset.course-management{
+	width:650px;
+	margin: 0 auto;
+}
+fieldset.course-management div{
+	font-size:18px;
+}
+.float-right.course-management{
+	padding-right:100px;
+}
+fieldset.course-management div.course-management.form{
+	min-height: 370px;
+}
+button.course-management.submit{
+
+}
